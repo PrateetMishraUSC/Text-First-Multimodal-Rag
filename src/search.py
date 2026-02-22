@@ -26,7 +26,7 @@ class RAGSearch:
     def __init__(self, vectorstore: FaissVectorStore, llm_model: str = "llama-3.1-8b-instant"):
         self.vectorstore = vectorstore
         self.llm_model = llm_model
-        groq_api_key = os.getenv("GROQ-API-KEY")
+        groq_api_key = os.getenv("GROQ_API_KEY") or os.getenv("GROQ-API-KEY")
         self.llm = ChatGroq(
             groq_api_key=groq_api_key,
             model_name=llm_model,
