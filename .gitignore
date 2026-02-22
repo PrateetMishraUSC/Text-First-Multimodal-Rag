@@ -1,0 +1,19 @@
+__pycache__/
+*.py[oc]
+build/
+wheels/
+*.egg-info
+.venv
+.env
+faiss_store/
+data/
+# ── Frontend build output ─────────────────────────────────────────────────────
+# Note: frontend/dist/ IS committed for Railway deployment (it reads from git).
+# If you prefer to build on Railway instead, uncomment the line below:
+# frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+.DS_Store
+.idea/
+.vscode/
+*.swp
