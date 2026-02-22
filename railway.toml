@@ -1,5 +1,5 @@
 [build]
-buildCommand = "cd frontend && npm install && npm run build && cd .. && pip install uv && uv sync"
+buildCommand = "pip install uv && uv sync"
 
 [deploy]
 startCommand = "uv run uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000}"
