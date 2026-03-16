@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# DocuChat — Text-First Multimodal RAG
-=======
 ---
 title: DocuChat
 emoji: 📄
@@ -11,7 +8,6 @@ pinned: false
 ---
 
 # DocuChat — Text-First Multimodal RAG System
->>>>>>> df1c3ce (updating readme)
 
 A full-stack RAG (Retrieval-Augmented Generation) system that lets you upload PDFs and chat with them in real time. DocuChat goes beyond plain text — it extracts tables and figures from your documents, indexes them as searchable knowledge, and streams LLM-powered answers with full source citations.
 
